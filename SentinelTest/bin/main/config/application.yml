@@ -1,0 +1,18 @@
+# SERVER SETTINGS
+
+server:
+  port: 8111
+  context-path: /huService/face_login
+
+spring:
+  application:
+    name: sentienl
+  datasource:
+    datasourcetest3:
+      url: jdbc:mysql://10.64.24.10:3306/test3?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+  jackson: 
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 
